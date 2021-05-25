@@ -1,5 +1,5 @@
 # octoprint-on-ubuntu-20.04
-These are the steps and files I used to get octoprint running on ubuntu 20.04 LTS
+These are the steps and files I used to get octoprint running on ubuntu 20.04 LTS server
 
 These instructions are based on the guide developed by Chris Riley for his video "Octoprint On Linux - Install - How To - Chris's Basement" https://www.youtube.com/watch?v=fimVwRXarf4
 
