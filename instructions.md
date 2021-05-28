@@ -1,5 +1,3 @@
-Webber Summit Natural Gas BBQ
-
 Change every instance of YourUserName to your username. 
 
 Everything in quote format is run within the terminal, everything in code format has to be entered into the file through nano commands.
