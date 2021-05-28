@@ -1,3 +1,5 @@
+Webber Summit Natural Gas BBQ
+
 Change every instance of YourUserName to your username. 
 
 Everything in quote format is run within the terminal, everything in code format has to be entered into the file through nano commands.
@@ -31,9 +33,9 @@ Install python and set up a virtual environment
 > 
 > pip install https://get.octoprint.org/latest
 > 
-> sudo usermod -a -G tty asd913
+> sudo usermod -a -G tty YourUserName
 > 
-> sudo usermod -a -G dialout asd913
+> sudo usermod -a -G dialout YourUserName
 > 
 > ~/OctoPrint/venv/bin/octoprint serve
 
@@ -48,7 +50,7 @@ Download the init script files from OctoPrint's repository, move them to their r
 
 Adjust the paths to your octoprint binary in /etc/systemd/system/octoprint.service. If you set it up in a virtualenv as described above make sure your /etc/systemd/system/octoprint.service looks like this:
 ```
-ExecStart=/home/asd913/OctoPrint/venv/bin/octoprint
+ExecStart=/home/YourUserName/OctoPrint/venv/bin/octoprint
 ```
 Then add the script to autostart using:
 
