@@ -147,7 +147,7 @@ MJPGSTREAMER_INPUT_RASPICAM="input_raspicam.so"
 
 # init configuration
 camera="auto"
-camera_usb_options="-r 1280x720 -f 20 -wb 5000 -ex 300”
+camera_usb_options="-r 1280x720 -f 20 -wb 5000 -ex 300"
 camera_raspi_options="-fps 10"
 
 if [ -e "/boot/octopi.txt" ]; then
