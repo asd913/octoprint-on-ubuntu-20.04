@@ -19,7 +19,7 @@ Install python and set up a virtual environment
 
 > cd ~
 > 
-> sudo apt install python-pip python-dev python-setuptools python-virtualenv git libyaml-dev build-essential
+> sudo apt install python3-pip python-dev python-setuptools python3-virtualenv git libyaml-dev build-essential
 > 
 > mkdir OctoPrint && cd OctoPrint
 > 
