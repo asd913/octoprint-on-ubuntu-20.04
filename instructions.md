@@ -48,6 +48,7 @@ Download the init script files from OctoPrint's repository, move them to their r
 
 Adjust the paths to your octoprint binary in /etc/systemd/system/octoprint.service. If you set it up in a virtualenv as described above make sure your /etc/systemd/system/octoprint.service looks like this:
 ```
+user=YourUserName
 ExecStart=/home/YourUserName/OctoPrint/venv/bin/octoprint
 ```
 Then add the script to autostart using:
